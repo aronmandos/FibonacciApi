@@ -19,11 +19,16 @@ initial setup plan:
 parts this simple API projects needs:
 - A API layer
 - A business logic layer
-- A data models project
+- A data models project (removed after implementation, not needed)
 - A unittest project
 
 
 notes:
-no DB needed to meet goals
-targeted research into fibonacci and prime numbers needed
-an growth goal i envision is caching for performance
+- decided for a REST API as i know how to quickly set that up
+- no DB needed to meet goals
+- more research into fibonacci and prime numbers needed for better performance
+
+growth goals for this project:
+- caching could be used for performance
+- more extensive exception handling
+- more testing, currently using only a couple untitests
